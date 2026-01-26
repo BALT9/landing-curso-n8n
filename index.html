@@ -468,8 +468,6 @@
         </div>
     </section>
 
-
-
     <section class="py-20">
         <div class="max-w-4xl mx-auto px-6">
 
@@ -1046,7 +1044,7 @@
         const bottomCTA = document.getElementById('bottomCTA');
         window.addEventListener('scroll', () => {
             const scrollY = window.scrollY;
-            const showAt = document.body.scrollHeight * 0.3;
+            const showAt = document.body.scrollHeight * 0.1;
             if (scrollY > showAt) {
                 bottomCTA.classList.remove('opacity-0', 'pointer-events-none');
                 bottomCTA.classList.add('opacity-100', 'pointer-events-auto');
